@@ -79,9 +79,9 @@ int main() {
 |--- |--- |--- |
 | Exercise 1-1. |  | X |
 | Exercise 1-2. |  | X |
-| Exercise 1-3. | Modify the temperature conversion program to print a heading above table. | X |
+| Exercise 1-3. | Modify the temperature conversion program to print a heading above table. | Done |
 | Exercise 1-4. | Write a program to print the corresponding Celsius to Fahrenheit table. | X |
-| Exercise 1-5. |  | X |
+| Exercise 1-5. | Modify the temperature conversion program to print the table in reverse order, that is, from 300 to 0 | Done |
 | Exercise 1-6. |  | X |
 | Exercise 1-7. |  | X |
 | Exercise 1-8. |  | X |
