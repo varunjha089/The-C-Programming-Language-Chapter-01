@@ -62,6 +62,7 @@ Some important notes on precision
 
 ### Calculating the fahrenheit-celsius using for loop
 
+#### floating-point arithmetic
 ```c
 int main() {
     int fahr;
@@ -73,6 +74,27 @@ int main() {
 }
 ```
 
+### Using Symbolic Constants
+
+```c
+#include <stdio.h>
+
+#define     LOWER   0       // Symbolic Constant for LOWER value.
+#define     UPPER   300     // Symbolic Constant for UPPER value.
+#define     STEP    20      // Symbolic Constant for STEP value.
+
+int main() {
+    int fahr;
+
+    printf("Fahrenheit to Celsius scale\n");
+    for (fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP){
+        printf("%3d \t %6.1f \n", fahr, (5.0 /9.0)*(fahr-32));
+    }
+    return 0;
+}
+
+```
+
 ## Exercises for Chapter 01
 
 | No. | Question | Status |
@@ -81,7 +103,7 @@ int main() {
 | Exercise 1-2. |  | X |
 | Exercise 1-3. | Modify the temperature conversion program to print a heading above table. | Done |
 | Exercise 1-4. | Write a program to print the corresponding Celsius to Fahrenheit table. | X |
-| Exercise 1-5. | Modify the temperature conversion program to print the table in reverse order, that is, from 300 to 0 | Done |
+| Exercise 1-5. | Modify the temperature conversion program to print the table in reverse order, that is, from 300 to 0. | Done |
 | Exercise 1-6. |  | X |
 | Exercise 1-7. |  | X |
 | Exercise 1-8. |  | X |
