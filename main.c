@@ -1,13 +1,7 @@
-// 1.5.1 File Copying
+// Exercise 1-7
 #include <stdio.h>
 
 int main() {
-    int c;
-
-    c = getchar();
-    while (c != EOF){
-        putchar(c);
-        c = getchar();
-    }
+    printf("EOF is %d\n", EOF);
     return 0;
 }

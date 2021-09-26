@@ -99,6 +99,8 @@ int main() {
 ### File Copying
 `getchar()` and `putchar()` can be helpful for writing simple amount of useful code without knowing anything more about input and output.
 
+`Version 01`
+
 ```c
 int main() {
     int c;
@@ -112,6 +114,21 @@ int main() {
 }
 ```
 
+`Version 02`
+
+```c
+int main() {
+    int c;
+
+    while ((c = getchar()) != EOF){
+        putchar(c);
+    }
+    return 0;
+}
+```
+
+
+
 ## Relational Operators
 
 ## Exercises for Chapter 01
@@ -124,7 +141,7 @@ int main() {
 | Exercise 1-4. | Write a program to print the corresponding Celsius to Fahrenheit table. | X |
 | Exercise 1-5. | Modify the temperature conversion program to print the table in reverse order, that is, from 300 to 0. | Done |
 | Exercise 1-6. | Verify that the expression `getchar() != EOF` is `0` or `1` | X |
-| Exercise 1-7. | Write a program to print the value of `EOF`. | X |
+| Exercise 1-7. | Write a program to print the value of `EOF`. | Done |
 | Exercise 1-8. | Write a program to count blanks, tabs, and newlines. | X |
 | Exercise 1-9. | Write a program to copy its output, replacing each string of one or more blank by a single blank. | X |
 | Exercise 1-10. | Write a program to copy its input to its output, replacing each tab by `\t`, each backspace by `\b`, and backslash by `\\`. This makes tabs and backspaces visible in an unambiguous way. | X |
