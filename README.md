@@ -140,7 +140,7 @@ int main() {
 | Exercise 1-3. | Modify the temperature conversion program to print a heading above table. | Done |
 | Exercise 1-4. | Write a program to print the corresponding Celsius to Fahrenheit table. | X |
 | Exercise 1-5. | Modify the temperature conversion program to print the table in reverse order, that is, from 300 to 0. | Done |
-| Exercise 1-6. | Verify that the expression `getchar() != EOF` is `0` or `1` | X |
+| Exercise 1-6. | Verify that the expression `getchar() != EOF` is `0` or `1` | Done |
 | Exercise 1-7. | Write a program to print the value of `EOF`. | Done |
 | Exercise 1-8. | Write a program to count blanks, tabs, and newlines. | X |
 | Exercise 1-9. | Write a program to copy its output, replacing each string of one or more blank by a single blank. | X |

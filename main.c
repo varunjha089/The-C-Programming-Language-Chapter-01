@@ -1,7 +1,12 @@
-// Exercise 1-7
+// Exercise 1-6
 #include <stdio.h>
 
 int main() {
-    printf("EOF is %d\n", EOF);
+    int c;
+
+    while (c = (getchar() != EOF)){
+        printf("%d\n", c);
+    }
+    printf("%d - at EOF\n", c);
     return 0;
 }
