@@ -1,12 +1,13 @@
-// Exercise 1-6
+// Character counting 1.5.2
 #include <stdio.h>
 
 int main() {
-    int c;
+    long nc;
 
-    while (c = (getchar() != EOF)){
-        printf("%d\n", c);
+    nc = 0;
+    while (getchar() != EOF){
+        ++nc;
     }
-    printf("%d - at EOF\n", c);
-    return 0;
+    printf("%1d\n", nc);
+//    return 0;
 }
