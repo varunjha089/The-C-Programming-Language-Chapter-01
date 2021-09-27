@@ -1,22 +1,25 @@
-// EXERCISE 1.8
+// EXERCISE 1.9
 #include <stdio.h>
 
+#define NONBLANK 'a'
+
 int main() {
-    int c, nb, nt, nl;
+    int c, lastc;
 
-    nb = 0;
-    nt = 0;
-    nl = 0;
+    lastc = NONBLANK;
+    while ((c = getchar()) != EOF){
+        if (c != ' '){
+            putchar(c);
+        }
 
-    while((c = getchar()) != EOF){
-        if (c == ' ')
-            ++nb;
-        if (c == '\t')
-            ++nt;
-        if (c == '\n')
-            ++nl;
+        if (c == ' '){
+            if (lastc != ' '){
+                putchar(c);
+            }
+        }
+
+        lastc = c;
     }
-    printf("%d %d %d\n", nb, nt, nl);
 
     return 0;
 }

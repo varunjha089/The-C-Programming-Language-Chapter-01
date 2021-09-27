@@ -1,6 +1,10 @@
 # The C Programming Language
 #### **by Brian W. Kernighan, Dennis M. Ritchie**
 
+## Important Points
+- `++a` is more efficient then `a+1`.
+- 
+
 ## Calculating the fahrenheit-celsius
 
 Here we are calculating the fahrenheit to celsius using various datatype and precision.
@@ -142,8 +146,8 @@ int main() {
 | Exercise 1-5. | Modify the temperature conversion program to print the table in reverse order, that is, from 300 to 0. | Done |
 | Exercise 1-6. | Verify that the expression `getchar() != EOF` is `0` or `1` | Done |
 | Exercise 1-7. | Write a program to print the value of `EOF`. | Done |
-| Exercise 1-8. | Write a program to count blanks, tabs, and newlines. | X |
-| Exercise 1-9. | Write a program to copy its output, replacing each string of one or more blank by a single blank. | X |
+| Exercise 1-8. | Write a program to count blanks, tabs, and newlines. | Done |
+| Exercise 1-9. | Write a program to copy its output, replacing each string of one or more blank by a single blank. | Done |
 | Exercise 1-10. | Write a program to copy its input to its output, replacing each tab by `\t`, each backspace by `\b`, and backslash by `\\`. This makes tabs and backspaces visible in an unambiguous way. | X |
 | Exercise 1-11. |  | X |
 | Exercise 1-12. |  | X |
