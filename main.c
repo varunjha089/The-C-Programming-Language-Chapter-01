@@ -1,13 +1,22 @@
-// Character counting 1.5.2
+// EXERCISE 1.8
 #include <stdio.h>
 
 int main() {
-    long nc;
+    int c, nb, nt, nl;
 
-    nc = 0;
-    while (getchar() != EOF){
-        ++nc;
+    nb = 0;
+    nt = 0;
+    nl = 0;
+
+    while((c = getchar()) != EOF){
+        if (c == ' ')
+            ++nb;
+        if (c == '\t')
+            ++nt;
+        if (c == '\n')
+            ++nl;
     }
-    printf("%1d\n", nc);
-//    return 0;
+    printf("%d %d %d\n", nb, nt, nl);
+
+    return 0;
 }
